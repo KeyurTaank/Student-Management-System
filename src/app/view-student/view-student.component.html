@@ -1,0 +1,22 @@
+<div class="card mb-3 mt-5" style="max-width: 100%">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img [src]="student?.img" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">{{student?.name}}</h5>
+          <p class="card-text">
+            Age : {{student?.age}}
+          </p>
+          <p class="card-text">
+            Email : {{student?.email}}
+          </p>
+          <p class="card-text">
+            Number : {{student?.number}}
+          </p>
+          <button class="btn btn-primary" (click)="goTo()">Back</button>
+        </div>
+      </div>
+    </div>
+  </div>
